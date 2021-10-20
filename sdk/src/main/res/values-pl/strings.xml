@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Card screen -->
+    <string name="wocr_hint_position_card_in_frame">Umieść kartę w obrębie poniższego pola</string>
+    <string name="wocr_button_enter_card_number">Anulować</string>
+</resources>
