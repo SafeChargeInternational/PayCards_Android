@@ -1,0 +1,7 @@
+Executable : /Users/michaelkessler/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/.cxx/cmake/debug/x86
+cardrecognizer
+jvmArgs : 
+

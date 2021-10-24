@@ -1,0 +1,62 @@
+{
+  "buildFiles": [
+    "/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/src/main/cpp/CMakeLists.txt",
+    "/Users/michaelkessler/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
+    "/Users/michaelkessler/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake",
+    "/Users/michaelkessler/Library/Android/sdk/ndk/23.1.7779620/build/cmake/platforms.cmake",
+    "/Users/michaelkessler/Library/Android/sdk/ndk/23.1.7779620/build/cmake/compiler_id.cmake",
+    "/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/src/main/cpp/armneon2x86sse/CMakeLists.txt",
+    "/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/src/main/cpp/armneon2x86sse/cmake/Config.cmake.in",
+    "/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/src/main/cpp/eigen/CMakeLists.txt",
+    "/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/src/main/cpp/protobuf/CMakeLists.txt",
+    "/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/src/main/cpp/caffe/CMakeLists.txt",
+    "/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/src/main/cpp/libyuv/CMakeLists.txt",
+    "/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/src/main/cpp/crossplatform/CMakeLists.txt",
+    "/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/src/main/cpp/opencv2/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/src/main/cpp/opencv2/sdk/native/jni/OpenCVConfig.cmake",
+    "/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/src/main/cpp/opencv2/sdk/native/jni/abi-x86/OpenCVConfig.cmake",
+    "/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/src/main/cpp/opencv2/sdk/native/jni/abi-x86/OpenCVModules.cmake",
+    "/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/src/main/cpp/opencv2/sdk/native/jni/abi-x86/OpenCVModules-release.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/michaelkessler/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/Users/michaelkessler/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "protobuf-Debug-x86": {
+      "artifactName": "protobuf",
+      "buildCommand": "/Users/michaelkessler/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/.cxx/cmake/debug/x86\" protobuf",
+      "abi": "x86",
+      "output": "/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/.cxx/cmake/debug/x86/protobuf/libprotobuf.a",
+      "runtimeFiles": []
+    },
+    "caffe-Debug-x86": {
+      "artifactName": "caffe",
+      "buildCommand": "/Users/michaelkessler/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/.cxx/cmake/debug/x86\" caffe",
+      "abi": "x86",
+      "output": "/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/.cxx/cmake/debug/x86/caffe/libcaffe.a",
+      "runtimeFiles": []
+    },
+    "libyuv-Debug-x86": {
+      "artifactName": "libyuv",
+      "buildCommand": "/Users/michaelkessler/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/.cxx/cmake/debug/x86\" libyuv",
+      "abi": "x86",
+      "output": "/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/.cxx/cmake/debug/x86/libyuv/liblibyuv.a",
+      "runtimeFiles": []
+    },
+    "cardrecognizer-Debug-x86": {
+      "artifactName": "cardrecognizer",
+      "buildCommand": "/Users/michaelkessler/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/.cxx/cmake/debug/x86\" cardrecognizer",
+      "abi": "x86",
+      "output": "/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/build/intermediates/cmake/debug/obj/x86/libcardrecognizer.so",
+      "runtimeFiles": []
+    },
+    "crossplatform-Debug-x86": {
+      "artifactName": "crossplatform",
+      "buildCommand": "/Users/michaelkessler/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/.cxx/cmake/debug/x86\" crossplatform",
+      "abi": "x86",
+      "output": "/Users/michaelkessler/Projects/SafeCharge/NuveiCashierScannerSDK/Libraries/Fork/PayCards_Android/sdk/.cxx/cmake/debug/x86/crossplatform/libcrossplatform.a",
+      "runtimeFiles": []
+    }
+  }
+}

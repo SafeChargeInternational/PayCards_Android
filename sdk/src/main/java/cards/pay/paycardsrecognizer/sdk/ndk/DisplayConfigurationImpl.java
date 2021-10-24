@@ -1,8 +1,6 @@
 package cards.pay.paycardsrecognizer.sdk.ndk;
 
 import android.annotation.SuppressLint;
-import android.support.annotation.RestrictTo;
-import android.support.annotation.VisibleForTesting;
 import android.util.Log;
 import android.view.Display;
 
@@ -13,6 +11,9 @@ import static cards.pay.paycardsrecognizer.sdk.ndk.RecognitionConstants.WORK_ARE
 import static cards.pay.paycardsrecognizer.sdk.ndk.RecognitionConstants.WORK_AREA_ORIENTATION_LANDSCAPE_RIGHT;
 import static cards.pay.paycardsrecognizer.sdk.ndk.RecognitionConstants.WORK_AREA_ORIENTATION_PORTAIT;
 import static cards.pay.paycardsrecognizer.sdk.ndk.RecognitionConstants.WORK_AREA_ORIENTATION_PORTAIT_UPSIDE_DOWN;
+
+import androidx.annotation.RestrictTo;
+import androidx.annotation.VisibleForTesting;
 
 @RestrictTo(RestrictTo.Scope.LIBRARY)
 public class DisplayConfigurationImpl implements DisplayConfiguration {

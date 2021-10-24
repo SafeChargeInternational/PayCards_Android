@@ -1,18 +1,15 @@
 apply plugin: 'com.android.library'
-apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
 
 android {
-    compileSdkVersion rootProject.ext.compileSdkVersion
-
-    testBuildType "profiling"
+    compileSdkVersion 30
 
     defaultConfig {
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode Integer.parseInt(VERSION_CODE)
-        versionName VERSION_NAME
+        minSdkVersion 23
+        targetSdkVersion 30
+        versionCode 3
+        versionName "1.0.1-NUVEI"
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+//        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
 
         externalNativeBuild {
             cmake {
@@ -20,6 +17,8 @@ android {
                 arguments '-DANDROID_STL=c++_shared'
             }
         }
+
+        ndkVersion "23.1.7779620"
     }
     externalNativeBuild {
         cmake {
@@ -37,14 +36,6 @@ android {
             jniDebuggable true
             debuggable true
         }
-        profiling {
-            initWith debug
-            externalNativeBuild {
-                cmake {
-                    arguments "-DCMAKE_BUILD_TYPE=Release"//, '-DCMAKE_VERBOSE_MAKEFILE=1'
-                }
-            }
-        }
     }
 
     compileOptions {
@@ -56,21 +47,18 @@ android {
 }
 
 dependencies {
-    androidTestImplementation "com.android.support.test.espresso:espresso-core:$rootProject.ext.espressoVersion"
-    implementation "com.android.support:appcompat-v7:$rootProject.ext.supportLibVersion"
-    implementation "com.facebook.device.yearclass:yearclass:$rootProject.ext.yearclassVersion"
-
-    testImplementation "junit:junit:$rootProject.ext.junitVersion"
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+//    implementation "com.facebook.device.yearclass:yearclass:2.1.0"
 }
 
-afterEvaluate { project ->
-    android.libraryVariants.all { variant ->
-        tasks.androidJavadocs.doFirst {
-            include '**/cards/pay/paycardsrecognizer/sdk/*.java'
-            options.encoding = "utf-8"
-            options.charSet = "utf-8"
-            options.showFromPublic()
-            failOnError false
-        }
-    }
-}
+//afterEvaluate { project ->
+//    android.libraryVariants.all { variant ->
+//        tasks.androidJavadocs.doFirst {
+//            include '**/cards/pay/paycardsrecognizer/sdk/*.java'
+//            options.encoding = "utf-8"
+//            options.charSet = "utf-8"
+//            options.showFromPublic()
+//            failOnError false
+//        }
+//    }
+//}

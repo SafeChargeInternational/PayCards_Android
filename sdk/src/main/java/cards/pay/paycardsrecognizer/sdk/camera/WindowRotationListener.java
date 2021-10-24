@@ -5,10 +5,11 @@ import android.content.Context;
 import android.hardware.display.DisplayManager;
 import android.os.Build;
 import android.os.Handler;
-import android.support.annotation.RestrictTo;
 import android.util.Log;
 import android.view.Display;
 import android.view.OrientationEventListener;
+
+import androidx.annotation.RestrictTo;
 
 import cards.pay.paycardsrecognizer.sdk.utils.Constants;
 

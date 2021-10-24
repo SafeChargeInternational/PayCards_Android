@@ -1,8 +1,9 @@
 package cards.pay.paycardsrecognizer.sdk.utils;
 
-import android.support.annotation.Nullable;
-import android.support.annotation.RestrictTo;
 import android.text.TextUtils;
+
+import androidx.annotation.Nullable;
+import androidx.annotation.RestrictTo;
 
 @RestrictTo(RestrictTo.Scope.LIBRARY)
 public final class CardUtils {

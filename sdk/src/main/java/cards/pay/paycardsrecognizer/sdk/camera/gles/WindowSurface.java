@@ -17,10 +17,11 @@ package cards.pay.paycardsrecognizer.sdk.camera.gles;
 
 import android.graphics.Bitmap;
 import android.opengl.GLES20;
-import android.support.annotation.RestrictTo;
 import android.util.Log;
 import android.view.Surface;
 import android.view.SurfaceHolder;
+
+import androidx.annotation.RestrictTo;
 
 import java.io.BufferedOutputStream;
 import java.io.File;

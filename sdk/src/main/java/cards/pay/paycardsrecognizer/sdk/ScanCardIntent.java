@@ -3,8 +3,6 @@ package cards.pay.paycardsrecognizer.sdk;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.support.annotation.IntDef;
-import android.support.annotation.RestrictTo;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -16,6 +14,9 @@ import static cards.pay.paycardsrecognizer.sdk.ui.ScanCardRequest.DEFAULT_ENABLE
 import static cards.pay.paycardsrecognizer.sdk.ui.ScanCardRequest.DEFAULT_GRAB_CARD_IMAGE;
 import static cards.pay.paycardsrecognizer.sdk.ui.ScanCardRequest.DEFAULT_SCAN_CARD_HOLDER;
 import static cards.pay.paycardsrecognizer.sdk.ui.ScanCardRequest.DEFAULT_SCAN_EXPIRATION_DATE;
+
+import androidx.annotation.IntDef;
+import androidx.annotation.RestrictTo;
 
 public final class ScanCardIntent {
 

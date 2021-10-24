@@ -3,11 +3,10 @@ package cards.pay.paycardsrecognizer.sdk.camera;
 import android.Manifest;
 import android.content.Context;
 import android.content.pm.PackageManager;
-import android.support.annotation.RestrictTo;
-import android.support.v4.content.ContextCompat;
-import android.util.Log;
 
-import com.facebook.device.yearclass.YearClass;
+import androidx.annotation.RestrictTo;
+import androidx.core.content.ContextCompat;
+import android.util.Log;
 
 import java.util.Locale;
 
@@ -69,9 +68,10 @@ public final class RecognitionAvailabilityChecker {
     }
 
     public static boolean isDeviceNewEnough(Context context) {
-        int year = YearClass.get(context);
-        if (DBG) Log.d(TAG, "Device year is: " + year);
-        return year >= 2011;
+        return true;
+//        int year = YearClass.get(context);
+//        if (DBG) Log.d(TAG, "Device year is: " + year);
+//        return year >= 2011;
     }
 
     public static boolean isDeviceHasCamera(Context context) {

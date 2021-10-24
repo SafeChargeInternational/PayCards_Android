@@ -17,9 +17,10 @@ package cards.pay.paycardsrecognizer.sdk.camera.gles;
 
 import android.graphics.SurfaceTexture;
 import android.opengl.EGL14;
-import android.support.annotation.RestrictTo;
 import android.util.Log;
 import android.view.SurfaceHolder;
+
+import androidx.annotation.RestrictTo;
 
 import javax.microedition.khronos.egl.EGL10;
 import javax.microedition.khronos.egl.EGLConfig;

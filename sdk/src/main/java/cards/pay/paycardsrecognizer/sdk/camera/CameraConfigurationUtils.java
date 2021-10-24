@@ -2,7 +2,6 @@ package cards.pay.paycardsrecognizer.sdk.camera;
 
 import android.graphics.Rect;
 import android.hardware.Camera;
-import android.support.annotation.RestrictTo;
 import android.util.Log;
 
 import java.util.ArrayList;
@@ -17,6 +16,8 @@ import static android.hardware.Camera.CameraInfo;
 import static android.hardware.Camera.getCameraInfo;
 import static android.hardware.Camera.getNumberOfCameras;
 import static android.hardware.Camera.open;
+
+import androidx.annotation.RestrictTo;
 
 @RestrictTo(RestrictTo.Scope.LIBRARY)
 public final class CameraConfigurationUtils {

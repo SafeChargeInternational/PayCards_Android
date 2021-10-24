@@ -1,8 +1,9 @@
 package cards.pay.paycardsrecognizer.sdk.camera;
 
 import android.hardware.Camera;
-import android.support.annotation.RestrictTo;
 import android.util.Log;
+
+import androidx.annotation.RestrictTo;
 
 import cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCore;
 import cards.pay.paycardsrecognizer.sdk.ndk.TorchStatusListener;

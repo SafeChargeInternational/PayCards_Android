@@ -5,14 +5,15 @@ import android.hardware.Camera;
 import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.Nullable;
-import android.support.annotation.RestrictTo;
 import android.util.Log;
 
 import cards.pay.paycardsrecognizer.sdk.utils.Constants;
 
 import static android.hardware.Camera.AutoFocusCallback;
 import static android.hardware.Camera.AutoFocusMoveCallback;
+
+import androidx.annotation.Nullable;
+import androidx.annotation.RestrictTo;
 
 @RestrictTo(RestrictTo.Scope.LIBRARY)
 public final class AutoFocusManager {

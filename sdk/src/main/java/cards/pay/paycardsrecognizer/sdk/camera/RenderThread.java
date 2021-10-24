@@ -8,9 +8,10 @@ import android.opengl.Matrix;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
-import android.support.annotation.RestrictTo;
 import android.util.Log;
 import android.view.SurfaceHolder;
+
+import androidx.annotation.RestrictTo;
 
 import java.io.IOException;
 import java.lang.ref.WeakReference;
